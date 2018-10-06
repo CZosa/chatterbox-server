@@ -5,7 +5,7 @@ module.exports = {
     this._ended = false;
     this._responseCode = null;
     this._headers = null;
-    this._data = null;
+    this._data = null;   
 
     this.writeHead = function(responseCode, headers) {
       this._responseCode = responseCode;
